@@ -1,23 +1,19 @@
 """
-psuedo-lammps
-
-A lightweight, robust parser for Large Atomic/Molecularly Massive Parallel Simulator(LAMMPS) dump files.
+psuedo-lammps: Parses and Extracts Quantum Esspresso DFT outputs and re-formats atomic system information into LAMMPS-style dump files and JSON files 
 """
 
-try:
-    from ._version import version as __version__
-except ImportError:
-    __version__ = "unknown"
+from .base_extractor import BaseExtractor
+from .qe_scf_extractor import QESCFExtractor
+from .qe_relaxed_extractor import QERelaxedExtractor
+from .qe_relaxed_vc_extractor import QERelaxedVCExtractor
 
 __author__ = "Andrew Trepagnier"
 __email__ = "andrew.trepagnier@icloud.com"
 
-# Import main functions/classes here
-# from .core import main_function
-# from .utils import utility_function
 
 __all__ = [
-    "__version__",
-    # "main_function",
-    # "utility_function",
+    'BaseExtractor',
+    'QESCFExtractor',
+    'QERelaxedExtractor',
+    'QERelaxedVCExtractor'
 ] 

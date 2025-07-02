@@ -36,14 +36,18 @@ class dftbridge:
     
         return poslist
     
-    def grep_energies(self) -> list:
+    def grep_totenergy(self) -> list[float]:
         energylist = []
         foundPattern = False
         for line in open(self.QEfile, "r"):
-            if re.search("energy", line):
-                energylist.append(line)
-            if not foundPattern:
-                print(f"grep failed to find energies in {self.QEfile}")
+            
+            if line.startswith("!") and re.search("total energy", line):
+                numbers = re.findall(r'-?\d+\.\d+', line)
+                if numbers:
+                    energylist.append(float(numbers[0]))  # Take the first float found
+                    foundPattern = True
+        if not foundPattern:
+            print(f"grep failed to find energies in {self.QEfile}")
         return energylist
 
     def grep_forces(self) -> list:

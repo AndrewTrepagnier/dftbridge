@@ -53,9 +53,13 @@ class dftbridge:
         forcelist = []
         foundPattern = False
         for line in open(self.QEfile, "r"):
-            if re.search("force", line):
-                forcelist.append(line)
-            if not foundPattern:
-                print(f"grep failed to find force in {self.QEfile}")
+            if re.search("Total force", line):
+                numbers = re.findall(r'-?\d+\.\d+', line) # Extract the numbers directly from the line
+                if numbers:
+                    forcelist.append(float(numbers[0]))  # Take the first float found
+                    foundPattern = True
+        if not foundPattern:
+            print(f"grep failed to find force in {self.QEfile}")
         return forcelist
+    
     

@@ -7,7 +7,6 @@ class dftbridge:
     def __init__(self, QEfilepath):
         self.QEfile = QEfilepath
 
-    
     def grep_atomic_positions(self) -> list[float]:
         """Robust Unix grep-style function that reads and extracts atomic positon data from QE DFT outputs"""
         poslist = []

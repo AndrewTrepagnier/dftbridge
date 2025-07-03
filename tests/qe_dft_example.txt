@@ -1,0 +1,50 @@
+Program PWSCF v.7.2 starts on 24Jun2025 at 14:33:12
+    Today is a great day for DFT.
+
+     bravais-lattice index     =            2
+     lattice parameter (alat)  =       5.4321  a.u.
+     unit-cell volume          =     160.1234 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     number of electrons       =         8.0
+
+crystal axes: (cart. coord. in units of alat)
+   a(1) = (   0.500000   0.500000   0.000000 )
+   a(2) = (   0.000000   0.500000   0.500000 )
+   a(3) = (   0.500000   0.000000   0.500000 )
+
+ATOMIC_POSITIONS (alat units)
+     1     Si1  tau(   0.000000   0.000000   0.000000 )
+     2     Si2  tau(   0.250000   0.250000   0.250000 )
+
+K_POINTS automatic
+     4 4 4   0 0 0
+
+     iteration # 1
+        total energy              =     -15.12345678 Ry
+        estimated scf accuracy    =      1.2E-05 Ry
+
+     iteration # 2
+        total energy              =     -15.78901234 Ry
+        estimated scf accuracy    =      3.4E-06 Ry
+
+!    total energy              =     -15.78901234 Ry
+     Harris-Foulkes estimate   =     -15.78876543 Ry
+     estimated scf accuracy    <       1.0E-06 Ry
+     convergence has been achieved
+
+     Fermi energy is    5.4321 ev
+
+Forces acting on atoms (Ry/au):
+     atom    1 type  1   force = (   0.000000   0.000000   0.000001 )
+     atom    2 type  1   force = (  -0.000001  -0.000002  -0.000003 )
+
+Total force =  0.000004 Total SCF steps = 2
+
+Total stress (Ry/bohr^3):
+     -0.00001   0.00000   0.00000
+      0.00000  -0.00002   0.00000
+      0.00000   0.00000  -0.00003
+
+PWSCF        :      10.2s CPU      12.3s WALL
+End of self-consistent calculation

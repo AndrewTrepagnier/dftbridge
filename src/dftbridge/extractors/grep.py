@@ -15,7 +15,7 @@ class dftbridge:
         found_positions = False
         reading_coordinates = False
 
-        for line in open(self.QEfilepath, "r"):
+        for line in open(self.QEfile, "r"):
             if re.search("ATOMIC_POSITIONS", line): # Check if we found the ATOMIC_POSITIONS line
                 found_positions = True
                 reading_coordinates = True
@@ -71,11 +71,18 @@ class dftbridge:
             if re.search("lattice parameter", line):
                 val = re.findall(r'-?\d+.\d+', line)
                 if val:
-                    latlist.append(float(val))
+                    latlist.append(float(val[0]))  # Convert first element to float
                     foundPattern = True
         if not foundPattern:
             print(f"grep failed to find lattice parameter in {self.QEfile}")
         return latlist
     
-    
+if __name__ == "__main__":
+    yttrium = dftbridge("/Users/andrewtrepagnier/Forks/psuedo-lammps/tests/qe_dft_example.txt")
+
+    print("Atomic positions:", yttrium.grep_atomic_positions())
+    print("Forces:", yttrium.grep_forces())
+    print("Energies:", yttrium.grep_totenergy())
+    print("Lattice parameters:", yttrium.grep_lattice())
+
             

@@ -4,11 +4,13 @@ import re
 
 
 class dftbridge:
+
     def __init__(self, QEfilepath):
         self.QEfile = QEfilepath
 
-    def grep_atomic_positions(self) -> list[float]:
-        """Robust Unix grep-style function that reads and extracts atomic positon data from QE DFT outputs"""
+    """ grep-style functions that read the DFT outputs for text patterns(ATOMIC_POSITION, Total energy, Total force) and saves in list """
+
+    def grep_atomic_positions(self) -> list:
         poslist = []
         found_positions = False
         reading_coordinates = False
@@ -35,7 +37,7 @@ class dftbridge:
     
         return poslist
     
-    def grep_totenergy(self) -> list[float]:
+    def grep_totenergy(self) -> list:
         energylist = []
         foundPattern = False
         for line in open(self.QEfile, "r"):
@@ -62,4 +64,18 @@ class dftbridge:
             print(f"grep failed to find force in {self.QEfile}")
         return forcelist
     
+    def grep_lattice(self) -> list:
+        latlist = []
+        foundPattern = False
+        for line in open(self.QEfile, "r"):
+            if re.search("lattice parameter", line):
+                val = re.findall(r'-?\d+.\d+', line)
+                if val:
+                    latlist.append(float(val))
+                    foundPattern = True
+        if not foundPattern:
+            print(f"grep failed to find lattice parameter in {self.QEfile}")
+        return latlist
     
+    
+            

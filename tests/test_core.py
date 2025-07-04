@@ -4,7 +4,7 @@ Tests for the core module.
 
 import pytest
 import pandas as pd
-from psuedo_lammps.core import parse_lammps_dump, LAMMPSDumpParser
+from dftbridge.core import parse_lammps_dump, LAMMPSDumpParser
 
 
 def test_parse_lammps_dump():

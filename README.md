@@ -1,17 +1,17 @@
-# psuedo-lammps
+# dftbridge
 
-A lightweight, robust parser for Large Atomic/Molecularly Massive Parallel Simulator(LAMMPS) dump files.
+A lightweight, robust parser for converting Quantum Espresso DFT outputs to Large Atomic/Molecularly Massive Parallel Simulator(LAMMPS) dump files.
 
 ## Installation
 
 ```bash
-pip install psuedo-lammps
+pip install dftbridge
 ```
 
 ## Usage
 
 ```python
-from psuedo_lammps import example_function
+from dftbridge import example_function
 
 # Use your package
 result = example_function()

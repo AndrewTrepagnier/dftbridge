@@ -48,3 +48,303 @@ Total stress (Ry/bohr^3):
 
 PWSCF        :      10.2s CPU      12.3s WALL
 End of self-consistent calculation
+
+ATOMIC_POSITIONS (alat units)
+     1     Si1  tau(   0.000001   0.000001   0.000002 )
+     2     Si2  tau(   0.250001   0.250002   0.250003 )
+
+     iteration # 1
+        total energy              =     -15.78901234 Ry
+        estimated scf accuracy    =      1.1E-05 Ry
+
+     iteration # 2
+        total energy              =     -15.78912345 Ry
+        estimated scf accuracy    =      2.3E-06 Ry
+
+!    total energy              =     -15.78912345 Ry
+     Harris-Foulkes estimate   =     -15.78898765 Ry
+     estimated scf accuracy    <       1.0E-06 Ry
+     convergence has been achieved
+
+     Fermi energy is    5.4322 ev
+
+Forces acting on atoms (Ry/au):
+     atom    1 type  1   force = (   0.000002   0.000001   0.000003 )
+     atom    2 type  1   force = (  -0.000002  -0.000001  -0.000003 )
+
+Total force =  0.000005 Total SCF steps = 2
+
+Total stress (Ry/bohr^3):
+     -0.00002   0.00001   0.00000
+      0.00001  -0.00003   0.00000
+      0.00000   0.00000  -0.00004
+
+PWSCF        :      10.5s CPU      12.7s WALL
+End of self-consistent calculation
+
+ATOMIC_POSITIONS (alat units)
+     1     Si1  tau(   0.000003   0.000002   0.000005 )
+     2     Si2  tau(   0.250003   0.250004   0.250006 )
+
+     iteration # 1
+        total energy              =     -15.78912345 Ry
+        estimated scf accuracy    =      1.0E-05 Ry
+
+     iteration # 2
+        total energy              =     -15.78923456 Ry
+        estimated scf accuracy    =      2.1E-06 Ry
+
+!    total energy              =     -15.78923456 Ry
+     Harris-Foulkes estimate   =     -15.78912345 Ry
+     estimated scf accuracy    <       1.0E-06 Ry
+     convergence has been achieved
+
+     Fermi energy is    5.4323 ev
+
+Forces acting on atoms (Ry/au):
+     atom    1 type  1   force = (   0.000004   0.000002   0.000005 )
+     atom    2 type  1   force = (  -0.000004  -0.000002  -0.000005 )
+
+Total force =  0.000007 Total SCF steps = 2
+
+Total stress (Ry/bohr^3):
+     -0.00003   0.00002   0.00000
+      0.00002  -0.00004   0.00000
+      0.00000   0.00000  -0.00005
+
+PWSCF        :      10.8s CPU      13.1s WALL
+End of self-consistent calculation
+
+ATOMIC_POSITIONS (alat units)
+     1     Si1  tau(   0.000006   0.000004   0.000009 )
+     2     Si2  tau(   0.250006   0.250007   0.250010 )
+
+     iteration # 1
+        total energy              =     -15.78923456 Ry
+        estimated scf accuracy    =      9.8E-06 Ry
+
+     iteration # 2
+        total energy              =     -15.78934567 Ry
+        estimated scf accuracy    =      1.9E-06 Ry
+
+!    total energy              =     -15.78934567 Ry
+     Harris-Foulkes estimate   =     -15.78923456 Ry
+     estimated scf accuracy    <       1.0E-06 Ry
+     convergence has been achieved
+
+     Fermi energy is    5.4324 ev
+
+Forces acting on atoms (Ry/au):
+     atom    1 type  1   force = (   0.000006   0.000003   0.000007 )
+     atom    2 type  1   force = (  -0.000006  -0.000003  -0.000007 )
+
+Total force =  0.000010 Total SCF steps = 2
+
+Total stress (Ry/bohr^3):
+     -0.00004   0.00003   0.00000
+      0.00003  -0.00005   0.00000
+      0.00000   0.00000  -0.00006
+
+PWSCF        :      11.1s CPU      13.5s WALL
+End of self-consistent calculation
+
+ATOMIC_POSITIONS (alat units)
+     1     Si1  tau(   0.000010   0.000007   0.000014 )
+     2     Si2  tau(   0.250010   0.250011   0.250015 )
+
+     iteration # 1
+        total energy              =     -15.78934567 Ry
+        estimated scf accuracy    =      9.5E-06 Ry
+
+     iteration # 2
+        total energy              =     -15.78945678 Ry
+        estimated scf accuracy    =      1.7E-06 Ry
+
+!    total energy              =     -15.78945678 Ry
+     Harris-Foulkes estimate   =     -15.78934567 Ry
+     estimated scf accuracy    <       1.0E-06 Ry
+     convergence has been achieved
+
+     Fermi energy is    5.4325 ev
+
+Forces acting on atoms (Ry/au):
+     atom    1 type  1   force = (   0.000008   0.000004   0.000009 )
+     atom    2 type  1   force = (  -0.000008  -0.000004  -0.000009 )
+
+Total force =  0.000013 Total SCF steps = 2
+
+Total stress (Ry/bohr^3):
+     -0.00005   0.00004   0.00000
+      0.00004  -0.00006   0.00000
+      0.00000   0.00000  -0.00007
+
+PWSCF        :      11.4s CPU      13.9s WALL
+End of self-consistent calculation
+
+ATOMIC_POSITIONS (alat units)
+     1     Si1  tau(   0.000015   0.000011   0.000020 )
+     2     Si2  tau(   0.250015   0.250016   0.250021 )
+
+     iteration # 1
+        total energy              =     -15.78945678 Ry
+        estimated scf accuracy    =      9.2E-06 Ry
+
+     iteration # 2
+        total energy              =     -15.78956789 Ry
+        estimated scf accuracy    =      1.5E-06 Ry
+
+!    total energy              =     -15.78956789 Ry
+     Harris-Foulkes estimate   =     -15.78945678 Ry
+     estimated scf accuracy    <       1.0E-06 Ry
+     convergence has been achieved
+
+     Fermi energy is    5.4326 ev
+
+Forces acting on atoms (Ry/au):
+     atom    1 type  1   force = (   0.000010   0.000005   0.000011 )
+     atom    2 type  1   force = (  -0.000010  -0.000005  -0.000011 )
+
+Total force =  0.000016 Total SCF steps = 2
+
+Total stress (Ry/bohr^3):
+     -0.00006   0.00005   0.00000
+      0.00005  -0.00007   0.00000
+      0.00000   0.00000  -0.00008
+
+PWSCF        :      11.7s CPU      14.3s WALL
+End of self-consistent calculation
+
+ATOMIC_POSITIONS (alat units)
+     1     Si1  tau(   0.000021   0.000016   0.000027 )
+     2     Si2  tau(   0.250021   0.250022   0.250028 )
+
+     iteration # 1
+        total energy              =     -15.78956789 Ry
+        estimated scf accuracy    =      8.9E-06 Ry
+
+     iteration # 2
+        total energy              =     -15.78967890 Ry
+        estimated scf accuracy    =      1.3E-06 Ry
+
+!    total energy              =     -15.78967890 Ry
+     Harris-Foulkes estimate   =     -15.78956789 Ry
+     estimated scf accuracy    <       1.0E-06 Ry
+     convergence has been achieved
+
+     Fermi energy is    5.4327 ev
+
+Forces acting on atoms (Ry/au):
+     atom    1 type  1   force = (   0.000012   0.000006   0.000013 )
+     atom    2 type  1   force = (  -0.000012  -0.000006  -0.000013 )
+
+Total force =  0.000019 Total SCF steps = 2
+
+Total stress (Ry/bohr^3):
+     -0.00007   0.00006   0.00000
+      0.00006  -0.00008   0.00000
+      0.00000   0.00000  -0.00009
+
+PWSCF        :      12.0s CPU      14.7s WALL
+End of self-consistent calculation
+
+ATOMIC_POSITIONS (alat units)
+     1     Si1  tau(   0.000028   0.000022   0.000035 )
+     2     Si2  tau(   0.250028   0.250029   0.250036 )
+
+     iteration # 1
+        total energy              =     -15.78967890 Ry
+        estimated scf accuracy    =      8.6E-06 Ry
+
+     iteration # 2
+        total energy              =     -15.78978901 Ry
+        estimated scf accuracy    =      1.1E-06 Ry
+
+!    total energy              =     -15.78978901 Ry
+     Harris-Foulkes estimate   =     -15.78967890 Ry
+     estimated scf accuracy    <       1.0E-06 Ry
+     convergence has been achieved
+
+     Fermi energy is    5.4328 ev
+
+Forces acting on atoms (Ry/au):
+     atom    1 type  1   force = (   0.000014   0.000007   0.000015 )
+     atom    2 type  1   force = (  -0.000014  -0.000007  -0.000015 )
+
+Total force =  0.000022 Total SCF steps = 2
+
+Total stress (Ry/bohr^3):
+     -0.00008   0.00007   0.00000
+      0.00007  -0.00009   0.00000
+      0.00000   0.00000  -0.00010
+
+PWSCF        :      12.3s CPU      15.1s WALL
+End of self-consistent calculation
+
+ATOMIC_POSITIONS (alat units)
+     1     Si1  tau(   0.000036   0.000029   0.000044 )
+     2     Si2  tau(   0.250036   0.250037   0.250045 )
+
+     iteration # 1
+        total energy              =     -15.78978901 Ry
+        estimated scf accuracy    =      8.3E-06 Ry
+
+     iteration # 2
+        total energy              =     -15.78989912 Ry
+        estimated scf accuracy    =      9.8E-07 Ry
+
+!    total energy              =     -15.78989912 Ry
+     Harris-Foulkes estimate   =     -15.78978901 Ry
+     estimated scf accuracy    <       1.0E-06 Ry
+     convergence has been achieved
+
+     Fermi energy is    5.4329 ev
+
+Forces acting on atoms (Ry/au):
+     atom    1 type  1   force = (   0.000016   0.000008   0.000017 )
+     atom    2 type  1   force = (  -0.000016  -0.000008  -0.000017 )
+
+Total force =  0.000025 Total SCF steps = 2
+
+Total stress (Ry/bohr^3):
+     -0.00009   0.00008   0.00000
+      0.00008  -0.00010   0.00000
+      0.00000   0.00000  -0.00011
+
+PWSCF        :      12.6s CPU      15.5s WALL
+End of self-consistent calculation
+
+ATOMIC_POSITIONS (alat units)
+     1     Si1  tau(   0.000045   0.000037   0.000054 )
+     2     Si2  tau(   0.250045   0.250046   0.250055 )
+
+     iteration # 1
+        total energy              =     -15.78989912 Ry
+        estimated scf accuracy    =      8.0E-06 Ry
+
+     iteration # 2
+        total energy              =     -15.79000000 Ry
+        estimated scf accuracy    =      8.5E-07 Ry
+
+!    total energy              =     -15.79000000 Ry
+     Harris-Foulkes estimate   =     -15.78989912 Ry
+     estimated scf accuracy    <       1.0E-06 Ry
+     convergence has been achieved
+
+     Fermi energy is    5.4330 ev
+
+Forces acting on atoms (Ry/au):
+     atom    1 type  1   force = (   0.000018   0.000009   0.000019 )
+     atom    2 type  1   force = (  -0.000018  -0.000009  -0.000019 )
+
+Total force =  0.000028 Total SCF steps = 2
+
+Total stress (Ry/bohr^3):
+     -0.00010   0.00009   0.00000
+      0.00009  -0.00011   0.00000
+      0.00000   0.00000  -0.00012
+
+PWSCF        :      12.9s CPU      15.9s WALL
+End of self-consistent calculation
+
+JOB DONE.
+

@@ -6,7 +6,7 @@ import pytest
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from psuedo_lammps.utils import (
+from dftbridge.utils import (
     validate_lammps_file,
     safe_get,
     ensure_directory,

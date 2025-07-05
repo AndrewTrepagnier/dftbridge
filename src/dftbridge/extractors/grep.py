@@ -28,11 +28,14 @@ class dftbridge:
         full_position_list = []
         timestep_x_positions = []
         postions_found = False
-        for line in open(self.QEfile, "r"):
+        for line_number, line in enumerate(open(self.QEfile, "r"), start=1):
             if re.search("ATOMIC_POSITIONS", line):
+        
                 for atom in self.numatoms:
-                    nextline = line + 1
-                    retval
+                    nextline = line_number + 1 # The "ATOMIC_POSITIONS" pattern is found at line_number, so iterate line_number+1 to get the values
+                    numbers = re.findall(r'-?\d+\.\d+', nextline)
+                    
+                    timestep_x_positions.append
                     timestep_x_positions.append()
     
     def grep_atomic_positions(self) -> list:
